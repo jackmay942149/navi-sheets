@@ -60,9 +60,9 @@ main :: proc() {
 	g_auth_key = transmute(string)auth_key_data
 
 	// Create all the required files
-	// create_basic_types()
+	create_basic_types()
 	create_def_types()
-	// create_methods()
+	create_methods()
 }
 
 // Create src file and add default heading
